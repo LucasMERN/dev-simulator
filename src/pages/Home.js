@@ -1,11 +1,19 @@
-import './App.css';
+import '../App.css';
+import styled from "styled-components"
+import React from "react"
 
-function App() {
+const Title = styled.h1`
+  font-size: 1.5em;
+  text-align: center;
+  color: palevioletred;
+`;
+
+function Home() {
   return (
-      <header className="App-header">
-        Welcome to your Developer Simulation!
-      </header>
+      <Title>
+        This is a title
+      </Title>
   );
 }
 
-export default App;
+export default Home;
